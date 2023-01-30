@@ -6,7 +6,6 @@
     var midterm = $('input[name = "midterm"]').val() * 0.10;
     var final = $('input[name = "final"]').val() * 0.10;
     var total = assign + quiz + project + intex + midterm + final
-    var output = 'A'
 
     if (total >= 90) {
         output = 'A'
@@ -19,4 +18,5 @@
     } else {
         output = 'F'
     }
+    $("final").text(output)
 })
