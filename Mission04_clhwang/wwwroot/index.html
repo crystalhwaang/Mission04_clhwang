@@ -20,6 +20,7 @@
     </ol>
 
     <h2>Grade Calculator!</h2>
+    <p>Enter all grades as a whole number. (i.e. 90% is entered as 90)</p>
     <form>
         <label>Assignments Percentage: </label>
         <input id="assignments"/> <br />
@@ -29,10 +30,11 @@
         <input id="projects"/> <br />
         <label>INTEX Percentage: </label>
         <input id="intex"/> <br />
-        <label>Exams Percentage: </label>
-        <input id="exams"/> <br />
-        <label>Extra Credit Percentage: </label>
-        <input id="ec"/>
+        <label>Midterm Percentage: </label>
+        <input id="midterm"/> <br />
+        <label>Final Percentage: </label>
+        <input id="final"/>
+        <input type ="button" onclick ="calculate()" value="Calculate"/>
     </form>
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="lib/jquery/jquery-3.6.3.min.js"></script>
