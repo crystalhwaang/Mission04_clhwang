@@ -18,5 +18,5 @@
     } else {
         output = 'F'
     }
-    $("final").text(output)
+    $("#print").text(output)
 })
