@@ -2,26 +2,26 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Learn About Me!</title>
-    <link rel="icon" href="img/IMG_8413.jpg" />
+    <title>Learn About Me!</title> <!--Adding the webpage title-->
+    <link rel="icon" href="img/IMG_8413.jpg" /> <!--Adding the computer icon-->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/override.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="container" style="background-color:darkcyan; padding-bottom: 5px">
+    <div class="container" style="background-color:darkcyan; padding-bottom: 5px"> <!--Styling for the header-->
         <h1>Crystal Hwang</h1>
     </div>
-    <div class="container" style="padding-top:15px; padding-bottom: 5px">
+    <div class="container" style="padding-top:15px; padding-bottom: 5px"> <!--Styling for the image-->
         <img src="img/IMG_4078_Original.jpg" />
     </div>
-    <div class="container">
+    <div class="container"> <!--Paragraph on what I hope to get out of IS413-->
         <p>
             In IS 413, I hope to improve my coding skills and to develop a better relationship with it. Programming isn't my most favorite thing to do in my
             freetime and I think it's because it takes me a bit to pick up on the syntax and the concepts. I hope to improve that this semester and to learn
             how to be a better developer.
         </p>
     </div>
-    <div class="container">
+    <div class="container"> <!--UL of jobs/fields I'm interested in-->
         <h2>Jobs I'm Interested In</h2>
         <ul>
             <li>1. NFL: Sports Analytics</li>
@@ -30,7 +30,7 @@
         </ul>
     </div>
 
-    <h2>Grade Calculator!</h2>
+    <h2>Grade Calculator!</h2> <!--Calculating grades within the class-->
     <p>Enter all grades as a whole number. (i.e. 90% is entered as 90)</p>
     <form>
         <label>Assignments: </label>
@@ -46,14 +46,15 @@
         <label>Final: </label>
         <input type="text" id="final" />
         <br />
-        <button id = "btnCalculate" type="button">Calculate</button>
+        <button id = "btnCalculate" type="button">Calculate</button> 
         <br />
         <br />
-        <label>Your Grade: </label>
+        <label>Your Grade: </label> <!--Printing the grade based on calculations made in the js file-->
         <div id="print"></div>
         <br /><br />
 
     </form>
+    <!--Bringing in all of the extra extensions-->
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="lib/jquery/jquery-3.6.3.min.js"></script>
     <script src="js/gradecalculator.js"></script>
