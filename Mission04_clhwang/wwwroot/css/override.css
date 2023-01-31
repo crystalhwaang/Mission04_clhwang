@@ -1,15 +1,17 @@
-﻿head {
-    margin-left: 0px;
-    margin-right: 0px;
-}
-body {
-    margin-left: 100px;
-    margin-right: 100px;
+﻿body {
+    margin-left: 200px;
+    margin-right: 200px;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 img {
     height : 250px;
     width : 350px;
+}
+
+form {
+    border-inline-width: 2px;
+    text-align: right;
 }
