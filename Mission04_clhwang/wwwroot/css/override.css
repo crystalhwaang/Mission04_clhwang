@@ -2,9 +2,10 @@
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 img {
     height : 250px;
-    width : 300px;
+    width : 350px;
 }
