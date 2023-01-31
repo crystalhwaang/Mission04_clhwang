@@ -18,5 +18,5 @@
     } else {
         output = 'F';
     }
-    $("#print").html(output);
+    document.getElementById(output);
 })
