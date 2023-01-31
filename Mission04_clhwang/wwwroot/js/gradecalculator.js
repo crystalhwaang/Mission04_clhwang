@@ -1,4 +1,4 @@
-﻿$("$btnCalculate").click(function calculate() {
+﻿$("#btnCalculate").click(function() {
     var assign = $('input[name = "assignments"]').val() * 0.50;
     var quiz = $('input[name = "quizzes"]').val() * 0.10;
     var project = $('input[name = "projects"]').val() * 0.10;
@@ -18,5 +18,5 @@
     } else {
         output = 'F';
     }
-    document.getElementById(output);
+    document.getElementById("print").value = output;
 })
