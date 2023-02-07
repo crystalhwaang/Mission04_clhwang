@@ -12,14 +12,30 @@ $(document).ready(function () {
         var total = assign + quiz + project + intex + midterm + final;
         var output = ' ';
         // Determining their letter grade based on their percentage
-        if (total >= 90) {
+        if (total >= 97) {
+            output = 'A+';
+        } else if (total >= 93) {
             output = 'A';
-        } else if (total >= 80) {
+        } else if (total >= 90) {
+            output = 'A-';
+        } else if (total >= 87) {
+            output = 'B+';
+        } else if (total >= 83) {
             output = 'B';
-        } else if (total >= 70) {
+        } else if (total >= 80) {
+            output = 'B-';
+        } else if (total >= 77) {
+            output = 'C+';
+        } else if (total >= 73) {
             output = 'C';
-        } else if (total >= 60) {
+        } else if (total >= 70) {
+            output = 'C-';
+        } else if (total >= 67) {
+            output = 'D+';
+        } else if (total >= 63) {
             output = 'D';
+        } else if (total >= 60) {
+            output = 'D-';
         } else {
             output = 'F';
         }
